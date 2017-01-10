@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
     name='django-fingerprinting',
-    version='1.0.1',
+    version='1.0.3',
     keywords='django staticfiles',
     author=u'Sheepsy90 <sheepsy90@gmail.com>',
-    packages=['django_fingerprinting'],
+    packages=find_packages(),
     url='https://github.com/sheepsy90/django-fingerprinting',
     license='see LICENCE',
     description='Replace names of static files and resources that are accessed from templates',
