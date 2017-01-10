@@ -1,3 +1,5 @@
+[![pypi](https://img.shields.io/pypi/v/django-spirit.svg?style=flat-square)](https://pypi.python.org/pypi/django-fingerprinting)
+
 django_fingerprinting
 =====================
 
